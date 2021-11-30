@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/75f9aa9591.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <p>9:41</p>
+      <img src="img/mobildækning.png" alt="" />
+    </div>
+
+    <div class="navbar">
+      <img src="img/inbox.png" alt="" />
+      <h2>Newsbox</h2>
+      <img src="img/settings.png" alt="" />
+    </div>
+
+    <main>
+      <div class="container">
+        <img src="img/ddmenu.png" alt="" />
+        <h3 class="header_h3">HEALT</h3>
+        <img
+          onclick="clickFunction()"
+          class="click"
+          src="img/dropdown.png"
+          alt=""
+        />
+      </div>
+
+      <div id="container_block" class="container container_block">
+
+        <a href="index.html">link</a>
+        <!-- <div id="newsContainer" class="container newsContainer">
+          <img src="img/img.png" alt="" />
+          <div>
+            <h3 class="news_h3">HEADLINE</h3>
+            <p class="news_p">
+              Lorem quae ex maxime natus doloribus iusto rem impedi...
+            </p>
+          </div>
+        </div>  -->
+
+        <!-- <div class="container">
+          <img src="img/img.png" alt="" />
+          <div>
+            <h3 class="news_h3">HEADLINE</h3>
+            <p class="news_p">
+              Lorem quae ex maxime natus doloribus iusto rem impedi...
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </main>
+    <script src="js/fetchAPI.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/swipeFunction.js"></script>
+  </body>
+</html>
